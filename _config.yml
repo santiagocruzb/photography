@@ -1,6 +1,6 @@
 # Base configs
-# baseurl: "https://photography.rampatra.com"
-baseurl: "https://santiagocruzb.github.io/photography"
+# baseurl: "http//localhost"
+# baseurl: "https://santiagocruzb.github.io/photography"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
 # google_analytics: "UA-46465113-2"
@@ -8,7 +8,7 @@ image_thumbs_loc: "/images/thumbs"
 # UI configs
 title: "Fotografía por Santiago Cruz"
 subtitle: "See the world through my eyes!"
-author: "Santiago Cruz"
+author: "Santiago Cruzz"
 header:
  title: "Photography"
  subtitle: "by Santiago Cruz"
