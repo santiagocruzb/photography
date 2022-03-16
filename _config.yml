@@ -3,7 +3,7 @@
 # baseurl: "https://santiagocruzb.github.io/photography"
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
-# google_analytics: "UA-46465113-2"
+google_analytics: "G-HVHBT12QNE"
 
 # UI configs
 title: "Fotografía por Santiago Cruz"
