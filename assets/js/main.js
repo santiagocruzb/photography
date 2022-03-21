@@ -307,7 +307,6 @@
             });
 
         function getExifDataMarkup(img) {
-            console.log('adentro');
             var exif = fetchExifData(img);
             var template = '';
             for (var info in exif) {

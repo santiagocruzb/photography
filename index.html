@@ -37,6 +37,7 @@ layout: default
                 <section>
                     <h2>{{ site.footer.name }}</h2>
                     <p>{{ site.footer.bio }}</p>
+                    <p>{{ site.footer.mail }}</p>
                     <p>{{ site.footer.github }}</p>
                 </section>
                 <!-- <section>
@@ -55,7 +56,7 @@ layout: default
                     </div>
                 </section> -->
                 <section>
-                    <h2>Sígueme en ...</h2>
+                    <h2>Follow me on</h2>
                     <ul class="icons">
                         {% if site.social_urls.facebook %}
                             <li>
@@ -73,8 +74,22 @@ layout: default
                         {% endif %}
                         {% if site.social_urls.instagram %}
                             <li>
-                                <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
+                                <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram" target="_blank">
                                     <span class="label">Instagram</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.photopx %}
+                            <li>
+                                <a href="{{ site.social_urls.photopx }}" class="icon fa-500px" target="_blank">
+                                    <span class="label">500px</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.youtube %}
+                            <li>
+                                <a href="{{ site.social_urls.youtube }}" class="icon fa-youtube" target="_blank">
+                                    <span class="label">Youtube</span>
                                 </a>
                             </li>
                         {% endif %}
@@ -87,7 +102,7 @@ layout: default
                         {% endif %}
                         {% if site.social_urls.github %}
                             <li>
-                                <a href="{{ site.social_urls.github }}" class="icon fa-github">
+                                <a href="{{ site.social_urls.github }}" class="icon fa-mail-forward">
                                     <span class="label">GitHub</span>
                                 </a>
                             </li>
@@ -102,7 +117,8 @@ layout: default
                     </ul>
                 </section>
                 <p class="copyright">
-                    &copy; {{ site.author }}. Design: {{ site.web_design }}
+                    <!-- &copy; {{ site.author }}. Design: {{ site.web_design }} -->
+                    &copy; {{ site.author }} 2022.
                 </p>
             </div>
             <!-- <div>
